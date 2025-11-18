@@ -39,7 +39,76 @@
 
 .hero {
     width: 100%;
+    height: 100vh;
 }
 .hero img {
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
+.brands-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 0;
+}
+.brands-slider img{
+    width: 150px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+
+}
+.card img{
+     width: 100%;
+     border-radius: 10px;
+}
+
+.card img:nth-child(2){
+    display: none;
+}
+.card h3{
+    margin: 10px 0 5px;
+    color: #000;
+}
+.card button{
+    background-color: #555555;
+    color: #000;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    
+}
+.card button img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
